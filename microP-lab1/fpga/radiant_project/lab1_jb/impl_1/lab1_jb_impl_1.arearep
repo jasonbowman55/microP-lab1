@@ -1,0 +1,13 @@
+----------------------------------------------------------------------
+Report for cell led_control.TECH
+Register bits:  25 of 5280 (0.473%)
+I/O cells:      8
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2        13          100.0
+                            FD1P3XZ        25          100.0
+                         HSOSC_CORE         1          100.0
+                                 IB         5          100.0
+                               LUT4         3          100.0
+                                 OB         3          100.0
+                              TOTAL        50

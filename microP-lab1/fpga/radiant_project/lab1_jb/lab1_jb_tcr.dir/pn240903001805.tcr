@@ -1,0 +1,43 @@
+#Start recording tcl command: 9/2/2024 20:10:12
+#Project Location: C:/Users/spenc/OneDrive/Desktop/microP-lab1/fpga/radiant_project/lab1_jb; Project name: lab1_jb
+prj_create -name "lab1_jb" -impl "impl_1" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "lse"
+prj_add_source "C:/Users/spenc/OneDrive/Desktop/microP-lab1/fpga/radiant_project/lab1_jb/source/impl_1/impl_1.sdc" "C:/Users/spenc/OneDrive/Desktop/microP-lab1/fpga/radiant_project/lab1_jb/source/impl_1/impl_1.pdc"
+prj_save 
+prj_add_source "C:/Users/spenc/OneDrive/Desktop/microP-lab1/fpga/radiant_project/lab1_jb/source/impl_1/verilog.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Synthesis -impl impl_1 -task Lattice_Synthesis
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 9/3/2024 00:18:05

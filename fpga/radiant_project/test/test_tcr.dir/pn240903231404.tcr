@@ -1,0 +1,7 @@
+#Start recording tcl command: 9/3/2024 23:06:24
+#Project Location: C:/Users/spenc/OneDrive/Desktop/microP-lab1/fpga/radiant_project/test; Project name: test
+prj_create -name "test" -impl "impl_1" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "lse"
+prj_add_source "C:/Users/spenc/OneDrive/Desktop/microP-lab1/fpga/radiant_project/test/source/impl_1/impl_1.sdc" "C:/Users/spenc/OneDrive/Desktop/microP-lab1/fpga/radiant_project/test/source/impl_1/impl_1.pdc"
+prj_save 
+prj_add_source "C:/Users/spenc/OneDrive/Desktop/microP-lab1/fpga/radiant_project/test/source/impl_1/test.sv"
+#Stop recording: 9/3/2024 23:14:04

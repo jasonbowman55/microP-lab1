@@ -1,13 +1,13 @@
 
 Lattice Place and Route Report for Design "lab1_jb_impl_1_map.udb"
-Mon Sep  9 12:47:36 2024
+Tue Sep 17 17:17:23 2024
 
 PAR: Place And Route Radiant Software (64-bit) 2024.1.0.34.2.
 Command Line: par -w -t 1 -cores 1 -hsp m -exp parPathBased=ON \
 	lab1_jb_impl_1_map.udb lab1_jb_impl_1_par.dir/5_1.udb 
 
 Loading lab1_jb_impl_1_map.udb ...
-Loading device for application GENERIC from file 'itpa08.nph' in environment: C:/Lattice Radiant/ispfpga.
+Loading device for application GENERIC from file 'itpa08.nph' in environment: C:/lscc/radiant/2024.1/ispfpga.
 Package Status:                     Preliminary    Version 1.5.
 Performance Hardware Data Status:   Advanced       Version 1.0.
 
@@ -67,13 +67,13 @@ Placer score = 15002.
 Device SLICE utilization summary after final SLICE packing:
    SLICE             20/2640         <1% used
 
-Finished Placer Phase 1. CPU time: 5 secs , REAL time: 5 secs 
+Finished Placer Phase 1. CPU time: 4 secs , REAL time: 4 secs 
 
 Starting Placer Phase 2.
 .
 
 Placer score =  18186
-Finished Placer Phase 2.  CPU time: 5 secs , REAL time: 5 secs 
+Finished Placer Phase 2.  CPU time: 4 secs , REAL time: 4 secs 
 
 
 ------------------ Clock Report ------------------
@@ -101,14 +101,14 @@ I/O Bank Usage Summary:
 | 2        | 3 / 8 ( 37%)  | 3.3V       |            |            |
 +----------+---------------+------------+------------+------------+
 
-Total Placer CPU time: 5 secs , REAL time: 5 secs 
+Total Placer CPU time: 4 secs , REAL time: 4 secs 
 
 
-Checksum -- place: e38c1175d6c3bad6465b3d68bcc9df5ea206541
+Checksum -- place: 9ef8293fea2d9041ce24e7b27bf06f462756ecf
 Writing design to file lab1_jb_impl_1_par.dir/5_1.udb ...
 
 
-Start NBR router at 12:47:41 09/09/24
+Start NBR router at 17:17:27 09/17/24
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -137,29 +137,29 @@ Primary clocks (1 used out of 8 available):
 --------------------------------------------------------------------------------
 Completed routing resource preassignment
 
-Start NBR section for initial routing at 12:47:42 09/09/24
+Start NBR section for initial routing at 17:17:28 09/17/24
 Level 4, iteration 1
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Routing in Serial Mode ......
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 28.542ns/0.000ns; real time: 2 secs 
+Estimated worst slack/total negative slack<setup>: 28.542ns/0.000ns; real time: 0 secs 
 
 Info: Initial congestion level at 75.00% usage is 0
 Info: Initial congestion area  at 75.00% usage is 0 (0.00%)
 
-Start NBR section for normal routing at 12:47:43 09/09/24
+Start NBR section for normal routing at 17:17:28 09/17/24
 Level 4, iteration 1
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 28.542ns/0.000ns; real time: 2 secs 
+Estimated worst slack/total negative slack<setup>: 28.542ns/0.000ns; real time: 0 secs 
 
-Start NBR section for setup/hold timing optimization with effort level 3 at 12:47:43 09/09/24
+Start NBR section for setup/hold timing optimization with effort level 3 at 17:17:28 09/17/24
 
-Start NBR section for post-routing at 12:47:43 09/09/24
+Start NBR section for post-routing at 17:17:28 09/17/24
 
 End NBR router with 0 unrouted connection(s)
 
-Checksum -- route: 51c0bd42a923308d19033760df877edb9579d8f4
+Checksum -- route: 4e7a4579e4e3f0b05898c4adf53e51b8601331f7
 
 Total CPU time 1 secs 
 Total REAL time: 2 secs 
@@ -182,9 +182,9 @@ PAR_SUMMARY::Number of errors = 0
 
 Note: user must run 'timing' for timing closure signoff.
 
-Total CPU  Time: 6 secs 
-Total REAL Time: 7 secs 
-Peak Memory Usage: 125.39 MB
+Total CPU  Time: 5 secs 
+Total REAL Time: 6 secs 
+Peak Memory Usage: 124.60 MB
 
 
 par done!

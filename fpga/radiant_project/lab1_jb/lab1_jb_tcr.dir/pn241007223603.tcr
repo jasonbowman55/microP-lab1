@@ -1,0 +1,6 @@
+#Start recording tcl command: 10/7/2024 22:32:54
+#Project Location: C:/Users/spenc/OneDrive/Documents/Desktop/HMC/microPs/microP-lab1/fpga/radiant_project/lab1_jb; Project name: lab1_jb
+prj_open "C:/Users/spenc/OneDrive/Documents/Desktop/HMC/microPs/microP-lab1/fpga/radiant_project/lab1_jb/lab1_jb.rdf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 10/7/2024 22:36:03
